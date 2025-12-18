@@ -71,7 +71,7 @@ const Home = () => {
             {/* The Opportunity */}
             <section className="py-10 bg-gray-50">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="text-center mb-16">
+                    <div className="text-center mb-8">
                         <h2 className="text-3xl font-bold text-ethio-green mb-4">The Opportunity</h2>
                         <div className="w-24 h-1 bg-ethio-red mx-auto"></div>
                     </div>
@@ -97,7 +97,7 @@ const Home = () => {
             {/* Our Solution */}
             <section className="py-10 bg-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="text-center mb-16">
+                    <div className="text-center mb-8">
                         <h2 className="text-3xl font-bold text-ethio-green mb-4">Our Solution: EthioTrustScore</h2>
                         <p className="text-xl text-gray-600">The first semi private credit reporting agency in Ethiopia.</p>
                     </div>
@@ -151,7 +151,7 @@ const Home = () => {
             {/* Why It Matters: Comparison */}
             <section className="py-10 bg-gray-50">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="text-center mb-16">
+                    <div className="text-center mb-8">
                         <h2 className="text-3xl font-bold text-gray-900 mb-4">Why EthioTrustScore Matters</h2>
                         <p className="text-xl text-gray-600">Bridging the gap between financial institutions and the Ethiopian people.</p>
                     </div>

@@ -1,5 +1,5 @@
 import { CheckCircle, XCircle } from 'lucide-react';
-import creditReportImg from '../assets/credit_report.png';
+import creditReportImg from '../assets/credit_report_new.png';
 import { motion } from 'framer-motion';
 
 const HowItWorks = () => {
@@ -15,7 +15,7 @@ const HowItWorks = () => {
                     className="text-center mb-16"
                 >
                     <h1 className="text-4xl font-bold text-ethio-green mb-4">Understanding EthioTrustScore</h1>
-                    <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-12">
+                    <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-6">
                         Your "financial report card" summarizing your borrowing history and reliability.
                     </p>
                     <div className="mb-4">
