@@ -1,4 +1,5 @@
 import { TrendingUp, Users, ShieldCheck, Flag } from 'lucide-react';
+import swotInfographic from '../assets/swot_infographic.jpg';
 
 const Impact = () => {
     return (
@@ -88,6 +89,15 @@ const Impact = () => {
                         </ul>
                     </div>
 
+                </div>
+
+                {/* Infographic */}
+                <div className="mt-16 mb-8">
+                    <img
+                        src={swotInfographic}
+                        alt="EthioTrustScore Opportunity and Challenges"
+                        className="w-full h-auto rounded-xl shadow-lg border border-gray-100"
+                    />
                 </div>
             </div>
         </div>
