@@ -104,8 +104,8 @@ const Footer = () => {
                     </div>
                     <div>
                         <h3 className="text-lg font-semibold mb-4 text-ethio-yellow">Contact Us</h3>
-                        <p className="text-gray-300">Addis Ababa, Ethiopia</p>
-                        <p className="text-gray-300">info@ethiotrustscore.com</p>
+                        <p className="text-gray-300">5501 Seminary Rd #2112S<br />Falls Church, VA 22041</p>
+                        <p className="text-gray-300">Kirillysc@gmail.com</p>
                     </div>
                 </div>
                 <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400 text-sm">
