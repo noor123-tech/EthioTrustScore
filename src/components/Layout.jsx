@@ -134,7 +134,7 @@ const Layout = ({ children }) => {
 
     return (
         <div className="min-h-screen flex flex-col font-sans">
-            <Navbar />
+            {/* {location.pathname !== '/investors' && <Navbar />} */}
             <main className="flex-grow">
                 {children}
             </main>

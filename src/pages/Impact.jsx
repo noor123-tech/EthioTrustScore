@@ -54,7 +54,6 @@ const Impact = () => {
                             <li>Scalable technology infrastructure.</li>
                         </ul>
                     </div>
-
                     {/* Weaknesses */}
                     <div className="bg-orange-50 p-8 rounded-xl border border-orange-100">
                         <h3 className="text-xl font-bold text-orange-600 mb-4 flex items-center">
@@ -65,7 +64,6 @@ const Impact = () => {
                             <li>Consumer education gap regarding credit scores.</li>
                         </ul>
                     </div>
-
                     {/* Opportunities */}
                     <div className="bg-blue-50 p-8 rounded-xl border border-blue-100">
                         <h3 className="text-xl font-bold text-blue-600 mb-4 flex items-center">
@@ -77,7 +75,6 @@ const Impact = () => {
                             <li>Banking liberalization.</li>
                         </ul>
                     </div>
-
                     {/* Threats */}
                     <div className="bg-red-50 p-8 rounded-xl border border-red-100">
                         <h3 className="text-xl font-bold text-ethio-red mb-4 flex items-center">
@@ -88,9 +85,7 @@ const Impact = () => {
                             <li>Reluctance in data sharing among institutions.</li>
                         </ul>
                     </div>
-
                 </div>
-
                 {/* Infographic */}
                 {/* <div className="mt-16 mb-8">
                     <img

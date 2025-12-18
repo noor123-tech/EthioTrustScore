@@ -7,6 +7,8 @@ import Impact from './Impact';
 import Investors from './Investors';
 import Contact from './Contact';
 
+import logo from '../assets/logoforeuthpiaedit.png';
+
 const fadeInUp = {
     hidden: { opacity: 0, y: 30 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } }
@@ -33,8 +35,11 @@ const Home = () => {
                         initial="hidden"
                         animate="visible"
                         variants={fadeInUp}
-                        className="max-w-xl"
+                        className="max-w-xl text-center"
                     >
+                        <div className="flex justify-center mb-6">
+                            <img src={logo} alt="EthioTrustScore Logo" className="h-64 w-auto" />
+                        </div>
                         <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
                             Pioneering Credit Intelligence in <span className="text-ethio-yellow">Ethiopia</span>
                         </h1>

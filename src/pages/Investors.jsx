@@ -2,6 +2,8 @@ import { BarChart, Map, AlertTriangle } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import investorOverview from '../assets/investor_overview.jpg';
 
+import logo from '../assets/logoforeuthpiaedit.png';
+
 const Investors = () => {
     return (
         <div className="bg-gray-50 min-h-screen py-8">
@@ -9,7 +11,10 @@ const Investors = () => {
 
                 {/* Header */}
                 <div className="text-center mb-16">
-                    <h1 className="text-4xl font-bold text-gray-900 mb-4">High-Impact Investment Opportunity</h1>
+                    <div className="flex justify-center mb-6">
+                        <img src={logo} alt="EthioTrustScore Logo" className="h-48 w-auto" />
+                    </div>
+                    <h1 className="text-4xl font-bold text-gray-900 mb-4">Pioneering Credit Intelligence in Ethiopia</h1>
                     <p className="text-xl text-gray-600">
                         Partner with us to build the infrastructure of trust in Ethiopia.
                     </p>
