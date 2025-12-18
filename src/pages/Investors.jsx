@@ -1,5 +1,6 @@
 import { BarChart, Map, AlertTriangle } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import investorOverview from '../assets/investor_overview.jpg';
 
 const Investors = () => {
     return (
@@ -12,6 +13,15 @@ const Investors = () => {
                     <p className="text-xl text-gray-600">
                         Partner with us to build the infrastructure of trust in Ethiopia.
                     </p>
+                </div>
+
+                {/* Overview Infographic */}
+                <div className="mb-16">
+                    <img
+                        src={investorOverview}
+                        alt="EthioTrustScore Investment Overview"
+                        className="w-full h-auto rounded-xl shadow-lg border border-gray-100"
+                    />
                 </div>
 
                 {/* Financials & Revenue */}
@@ -73,7 +83,7 @@ const Investors = () => {
                         <RoadmapCard
                             phase="Phase 1 (Year 1)"
                             title="Foundation"
-                            items={["Secure NBE License", "Seed Capital $5-15M", "Partner Global Tech (Experian/TransUnion)"]}
+                            items={["Secure NBE License", "Seed Capital $5-15M", "Partner Global Tech"]}
                         />
                         <RoadmapCard
                             phase="Phase 2"

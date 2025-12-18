@@ -15,9 +15,20 @@ const HowItWorks = () => {
                     className="text-center mb-16"
                 >
                     <h1 className="text-4xl font-bold text-ethio-green mb-4">Understanding EthioTrustScore</h1>
-                    <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+                    <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-12">
                         Your "financial report card" summarizing your borrowing history and reliability.
                     </p>
+
+                    {/* Video Embed */}
+                    <div className="max-w-4xl mx-auto mb-16 shadow-2xl rounded-2xl overflow-hidden border-4 border-white bg-black">
+                        <iframe
+                            className="w-full aspect-video"
+                            src="https://www.youtube.com/embed/DsZLFNwDDEk"
+                            title="EthioTrustScore Explainer"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                        ></iframe>
+                    </div>
                     <div className="mb-4">
                         <span className="inline-block bg-gray-100 text-gray-500 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
                             Illustrative Example
