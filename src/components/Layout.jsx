@@ -1,6 +1,6 @@
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import logo from '../assets/image.png';
 import footerBg from '../assets/image_bd7729.jpg';
 
@@ -10,10 +10,10 @@ const Navbar = () => {
 
     const links = [
         { name: 'Home', path: '/' },
-        { name: 'How It Works', path: '/how-it-works' },
-        { name: 'Impact', path: '/impact' },
-        { name: 'Investors', path: '/investors' },
-        { name: 'Contact', path: '/contact' },
+        { name: 'How It Works', path: '/#how-it-works' },
+        { name: 'Impact', path: '/#impact' },
+        { name: 'Investors', path: '/#investors' },
+        { name: 'Contact', path: '/#contact' },
     ];
 
     return (
@@ -97,9 +97,9 @@ const Footer = () => {
                     <div>
                         <h3 className="text-lg font-semibold mb-4 text-ethio-yellow">Quick Links</h3>
                         <ul className="space-y-2">
-                            <li><Link to="/how-it-works" className="hover:text-ethio-green transition-colors">How It Works</Link></li>
-                            <li><Link to="/impact" className="hover:text-ethio-green transition-colors">Impact</Link></li>
-                            <li><Link to="/investors" className="hover:text-ethio-green transition-colors">Investors</Link></li>
+                            <li><a href="/#how-it-works" className="hover:text-ethio-green transition-colors">How It Works</a></li>
+                            <li><a href="/#impact" className="hover:text-ethio-green transition-colors">Impact</a></li>
+                            <li><a href="/#investors" className="hover:text-ethio-green transition-colors">Investors</a></li>
                         </ul>
                     </div>
                     <div>
@@ -117,6 +117,19 @@ const Footer = () => {
 };
 
 const Layout = ({ children }) => {
+    const { hash } = useLocation();
+
+    useEffect(() => {
+        if (hash) {
+            const element = document.getElementById(hash.replace('#', ''));
+            if (element) {
+                setTimeout(() => {
+                    element.scrollIntoView({ behavior: 'smooth' });
+                }, 100);
+            }
+        }
+    }, [hash]);
+
     return (
         <div className="min-h-screen flex flex-col font-sans">
             <Navbar />

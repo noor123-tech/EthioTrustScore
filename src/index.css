@@ -7,4 +7,9 @@
     --color-ethio-green: #078930;
     --color-ethio-yellow: #FCD116;
     --color-ethio-red: #DA121A;
+    --color-ethio-blue: #0F47AF;
+}
+
+html {
+    scroll-behavior: smooth;
 }

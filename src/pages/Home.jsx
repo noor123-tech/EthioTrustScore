@@ -1,7 +1,11 @@
 import { ArrowRight, Building2, Smartphone, Database } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import heroImage from '../assets/image_bd76e7.jpg';
+import heroImage from '../assets/hero_skyline.jpg';
+import HowItWorks from './HowItWorks';
+import Impact from './Impact';
+import Investors from './Investors';
+import Contact from './Contact';
 
 const fadeInUp = {
     hidden: { opacity: 0, y: 30 },
@@ -219,6 +223,22 @@ const Home = () => {
                         </Link>
                     </div>
                 </div>
+            </section>
+
+            <section id="how-it-works" className="scroll-mt-28">
+                <HowItWorks />
+            </section>
+
+            <section id="impact" className="scroll-mt-28">
+                <Impact />
+            </section>
+
+            <section id="investors" className="scroll-mt-28">
+                <Investors />
+            </section>
+
+            <section id="contact" className="scroll-mt-28">
+                <Contact />
             </section>
         </div>
     );
