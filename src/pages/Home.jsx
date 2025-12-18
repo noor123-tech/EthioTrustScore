@@ -80,7 +80,7 @@ const Home = () => {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-16">
                         <h2 className="text-3xl font-bold text-ethio-green mb-4">Our Solution: EthioTrustScore</h2>
-                        <p className="text-xl text-gray-600">The first fully private credit reporting agency in Ethiopia.</p>
+                        <p className="text-xl text-gray-600">The first semi private credit reporting agency in Ethiopia.</p>
                     </div>
 
                     {/* Flowchart Visual */}
