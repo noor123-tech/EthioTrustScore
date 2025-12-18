@@ -41,20 +41,35 @@ const Home = () => {
                         <p className="text-lg lg:text-xl text-gray-300 mb-8 leading-relaxed">
                             Building Ethiopia’s financial backbone to unlock trillions in new lending and drive a 10x economic multiplier.
                         </p>
-                        <div className="flex flex-wrap gap-4">
+                        {/* <div className="flex flex-wrap gap-4">
                             <Link to="/contact" className="bg-ethio-yellow text-gray-900 font-bold py-3 px-8 rounded-full hover:bg-yellow-400 transition-colors shadow-lg hover:shadow-yellow-400/20">
                                 Join the Revolution
                             </Link>
                             <Link to="/how-it-works" className="bg-transparent border-2 border-gray-600 text-gray-300 font-bold py-3 px-8 rounded-full hover:border-white hover:text-white transition-colors">
                                 How It Works
                             </Link>
-                        </div>
+                        </div> */}
                     </motion.div>
                 </div>
             </section>
 
+            {/* Video Section */}
+            <section className="py-10 bg-white">
+                <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div className="shadow-2xl rounded-2xl overflow-hidden border-4 border-gray-700 bg-black">
+                        <iframe
+                            className="w-full aspect-video"
+                            src="https://www.youtube.com/embed/DsZLFNwDDEk"
+                            title="EthioTrustScore Explainer"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                        ></iframe>
+                    </div>
+                </div>
+            </section>
+
             {/* The Opportunity */}
-            <section className="py-20 bg-gray-50">
+            <section className="py-10 bg-gray-50">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-16">
                         <h2 className="text-3xl font-bold text-ethio-green mb-4">The Opportunity</h2>
@@ -80,7 +95,7 @@ const Home = () => {
             </section>
 
             {/* Our Solution */}
-            <section className="py-20 bg-white">
+            <section className="py-10 bg-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-16">
                         <h2 className="text-3xl font-bold text-ethio-green mb-4">Our Solution: EthioTrustScore</h2>
@@ -123,7 +138,7 @@ const Home = () => {
                         {/* Central Score */}
                         <div className="w-full md:w-1/3 flex justify-center">
                             <div className="bg-gradient-to-br from-ethio-green to-emerald-700 text-white rounded-full p-12 w-64 h-64 flex flex-col items-center justify-center text-center shadow-2xl relative z-10">
-                                <div className="text-5xl font-bold mb-2">750</div>
+                                <div className="text-4xl font-bold mb-2 whitespace-nowrap">250-877</div>
                                 <div className="text-lg font-medium">EthioTrustScore</div>
                                 <div className="mt-2 text-xs opacity-80">Centralized Credit Profile</div>
                             </div>
@@ -134,7 +149,7 @@ const Home = () => {
             </section>
 
             {/* Why It Matters: Comparison */}
-            <section className="py-20 bg-gray-50">
+            <section className="py-10 bg-gray-50">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-16">
                         <h2 className="text-3xl font-bold text-gray-900 mb-4">Why EthioTrustScore Matters</h2>
@@ -200,7 +215,7 @@ const Home = () => {
             </section>
 
             {/* Security & Compliance */}
-            <section className="py-20 bg-gray-900 text-white">
+            <section className="py-10 bg-gray-900 text-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                     <h2 className="text-3xl font-bold text-ethio-yellow mb-8">Trusted, Secure, & Compliant</h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -217,11 +232,11 @@ const Home = () => {
                             <p className="text-gray-400">Aligned with IFC/World Bank best practices for credit reporting.</p>
                         </div>
                     </div>
-                    <div className="mt-12">
+                    {/* <div className="mt-12">
                         <Link to="/contact" className="bg-ethio-green text-white font-bold py-4 px-10 rounded-full hover:bg-green-700 transition-colors shadow-lg text-lg">
                             Become a Data Partner
                         </Link>
-                    </div>
+                    </div> */}
                 </div>
             </section>
 

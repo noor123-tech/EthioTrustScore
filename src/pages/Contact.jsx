@@ -40,7 +40,7 @@ const Contact = () => {
     };
 
     return (
-        <div className="bg-white py-16">
+        <div className="bg-white py-8">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
                 <div className="text-center mb-16">
@@ -60,7 +60,7 @@ const Contact = () => {
                                 <MapPin className="text-ethio-green w-6 h-6 mr-4 mt-1" />
                                 <div>
                                     <h3 className="font-bold text-gray-900">Visit Us</h3>
-                                    <p className="text-gray-600">5501 Seminary Rd #2112S<br />Falls Church, VA 22041</p>
+                                    <p className="text-gray-600">USA: 5501 Seminary Rd #2112S<br />Falls Church, VA 22041</p>
                                 </div>
                             </div>
                             <div className="flex items-start">
@@ -74,7 +74,7 @@ const Contact = () => {
                                 <Phone className="text-ethio-green w-6 h-6 mr-4 mt-1" />
                                 <div>
                                     <h3 className="font-bold text-gray-900">Call Us</h3>
-                                    <p className="text-gray-600">+1 (571) 276-0986</p>
+                                    <p className="text-gray-600">+1 571 276-0986</p>
                                 </div>
                             </div>
                         </div>

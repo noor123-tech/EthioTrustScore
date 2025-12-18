@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const HowItWorks = () => {
     return (
-        <div className="bg-gray-50 py-16">
+        <div className="bg-gray-50 py-8">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
                 {/* Header */}
@@ -18,17 +18,6 @@ const HowItWorks = () => {
                     <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-12">
                         Your "financial report card" summarizing your borrowing history and reliability.
                     </p>
-
-                    {/* Video Embed */}
-                    <div className="max-w-4xl mx-auto mb-16 shadow-2xl rounded-2xl overflow-hidden border-4 border-white bg-black">
-                        <iframe
-                            className="w-full aspect-video"
-                            src="https://www.youtube.com/embed/DsZLFNwDDEk"
-                            title="EthioTrustScore Explainer"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen
-                        ></iframe>
-                    </div>
                     <div className="mb-4">
                         <span className="inline-block bg-gray-100 text-gray-500 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
                             Illustrative Example
@@ -44,62 +33,7 @@ const HowItWorks = () => {
                     />
                 </motion.div>
 
-                {/* What is it? */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-20">
-                    <motion.div
-                        initial={{ opacity: 0, x: -30 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.5 }}
-                        className="bg-white p-8 rounded-xl shadow-md border-t-4 border-ethio-green hover:shadow-lg transition-shadow"
-                    >
-                        <h2 className="text-2xl font-bold mb-6 flex items-center">
-                            <span className="bg-green-100 text-ethio-green p-2 rounded-full mr-3 text-sm">300</span>
-                            High Scores (670+)
-                        </h2>
-                        <ul className="space-y-4">
-                            <li className="flex items-start">
-                                <CheckCircle className="text-ethio-green mt-1 mr-3 flex-shrink-0" />
-                                <span className="text-gray-700">Access to reliable loans</span>
-                            </li>
-                            <li className="flex items-start">
-                                <CheckCircle className="text-ethio-green mt-1 mr-3 flex-shrink-0" />
-                                <span className="text-gray-700">Cheaper interest rates</span>
-                            </li>
-                            <li className="flex items-start">
-                                <CheckCircle className="text-ethio-green mt-1 mr-3 flex-shrink-0" />
-                                <span className="text-gray-700">Higher borrowing limits</span>
-                            </li>
-                        </ul>
-                    </motion.div>
 
-                    <motion.div
-                        initial={{ opacity: 0, x: 30 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.5 }}
-                        className="bg-white p-8 rounded-xl shadow-md border-t-4 border-ethio-red hover:shadow-lg transition-shadow"
-                    >
-                        <h2 className="text-2xl font-bold mb-6 flex items-center">
-                            <span className="bg-red-100 text-ethio-red p-2 rounded-full mr-3 text-sm">600</span>
-                            Low Scores
-                        </h2>
-                        <ul className="space-y-4">
-                            <li className="flex items-start">
-                                <XCircle className="text-ethio-red mt-1 mr-3 flex-shrink-0" />
-                                <span className="text-gray-700">Higher interest rates</span>
-                            </li>
-                            <li className="flex items-start">
-                                <XCircle className="text-ethio-red mt-1 mr-3 flex-shrink-0" />
-                                <span className="text-gray-700">Potential loan denials</span>
-                            </li>
-                            <li className="flex items-start">
-                                <XCircle className="text-ethio-red mt-1 mr-3 flex-shrink-0" />
-                                <span className="text-gray-700">Limited financial options</span>
-                            </li>
-                        </ul>
-                    </motion.div>
-                </div>
 
                 {/* Score Composition */}
                 <div className="mb-20">

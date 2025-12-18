@@ -1,8 +1,9 @@
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { useState, useEffect } from 'react';
-import logo from '../assets/image.png';
+// import logo from '../assets/image.png';
 import footerBg from '../assets/image_bd7729.jpg';
+import logo2 from '../assets/logoforeuthpiaedit.png';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -12,17 +13,16 @@ const Navbar = () => {
         { name: 'Home', path: '/' },
         { name: 'How It Works', path: '/#how-it-works' },
         { name: 'Impact', path: '/#impact' },
-        { name: 'Investors', path: '/#investors' },
         { name: 'Contact', path: '/#contact' },
     ];
 
     return (
         <nav className="bg-white shadow-md sticky top-0 z-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex justify-between h-24">
+                <div className="flex justify-between h-32">
                     <div className="flex-shrink-0 flex items-center">
                         <Link to="/" className="flex items-center">
-                            <img src={logo} alt="EthioTrustScore" className="h-32 w-auto" />
+                            <img src={logo2} alt="EthioTrustScore" className="h-32 w-auto" />
                         </Link>
                     </div>
 
@@ -99,13 +99,15 @@ const Footer = () => {
                         <ul className="space-y-2">
                             <li><a href="/#how-it-works" className="hover:text-ethio-green transition-colors">How It Works</a></li>
                             <li><a href="/#impact" className="hover:text-ethio-green transition-colors">Impact</a></li>
-                            <li><a href="/#investors" className="hover:text-ethio-green transition-colors">Investors</a></li>
                         </ul>
                     </div>
                     <div>
                         <h3 className="text-lg font-semibold mb-4 text-ethio-yellow">Contact Us</h3>
-                        <p className="text-gray-300">5501 Seminary Rd #2112S<br />Falls Church, VA 22041</p>
-                        <p className="text-gray-300">Kirillysc@gmail.com</p>
+                        <div className="space-y-2 text-gray-300">
+                            <p>USA: 5501 Seminary Rd #2112S<br />Falls Church, VA 22041</p>
+                            <p>Kirillysc@gmail.com</p>
+                            <p>+1 571 276-0986</p>
+                        </div>
                     </div>
                 </div>
                 <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400 text-sm">

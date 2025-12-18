@@ -4,7 +4,7 @@ import investorOverview from '../assets/investor_overview.jpg';
 
 const Investors = () => {
     return (
-        <div className="bg-gray-50 min-h-screen py-16">
+        <div className="bg-gray-50 min-h-screen py-8">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
                 {/* Header */}
@@ -99,7 +99,7 @@ const Investors = () => {
                 </div>
 
                 {/* Risks (Mitigation) */}
-                <div className="bg-white p-8 rounded-xl shadow-md border-l-4 border-ethio-yellow">
+                {/* <div className="bg-white p-8 rounded-xl shadow-md border-l-4 border-ethio-yellow">
                     <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
                         <AlertTriangle className="text-ethio-yellow mr-3" /> Key Risks & Mitigation
                     </h2>
@@ -123,13 +123,13 @@ const Investors = () => {
                             </p>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
-                <div className="mt-16 text-center">
+                {/* <div className="mt-16 text-center">
                     <Link to="/contact" className="bg-ethio-yellow text-gray-900 font-bold text-lg py-4 px-10 rounded-full hover:bg-yellow-400 transition-colors shadow-lg">
                         Invest Now
                     </Link>
-                </div>
+                </div> */}
 
             </div>
         </div>

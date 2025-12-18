@@ -5,14 +5,14 @@ const Impact = () => {
     return (
         <div className="bg-white">
             {/* Header */}
-            <div className="bg-gray-50 py-16 text-center">
+            <div className="bg-gray-50 py-8 text-center">
                 <h1 className="text-4xl font-bold text-ethio-green mb-4">Driving Economic Transformation</h1>
                 <p className="text-xl text-gray-600 max-w-3xl mx-auto px-4">
                     Unlocking potential and accelerating growth for Ethiopia.
                 </p>
             </div>
 
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
 
                 {/* Economic Impact Stats */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
@@ -20,8 +20,8 @@ const Impact = () => {
                         <div className="inline-flex p-4 rounded-full bg-green-100 text-ethio-green mb-4">
                             <TrendingUp size={32} />
                         </div>
-                        <h3 className="text-3xl font-bold text-gray-900 mb-2">$10-20 B</h3>
-                        <p className="text-gray-500">Potential addition to nominal GDP by 2035</p>
+                        <h3 className="text-3xl font-bold text-gray-900 mb-2">$10-$20 Billion</h3>
+                        <p className="text-gray-500">Addition to nominal GDP by 2035</p>
                     </div>
                     <div className="text-center p-8 bg-white border border-gray-100 shadow-xl rounded-2xl">
                         <div className="inline-flex p-4 rounded-full bg-yellow-100 text-yellow-600 mb-4">
@@ -35,7 +35,7 @@ const Impact = () => {
                             <ShieldCheck size={32} />
                         </div>
                         <h3 className="text-3xl font-bold text-gray-900 mb-2">20-40%</h3>
-                        <p className="text-gray-500">Reduction in defaults (benchmarked vs Kenya/SA)</p>
+                        <p className="text-gray-500">Reduction in defaults</p>
                     </div>
                 </div>
 
@@ -92,13 +92,13 @@ const Impact = () => {
                 </div>
 
                 {/* Infographic */}
-                <div className="mt-16 mb-8">
+                {/* <div className="mt-16 mb-8">
                     <img
                         src={swotInfographic}
                         alt="EthioTrustScore Opportunity and Challenges"
                         className="w-full h-auto rounded-xl shadow-lg border border-gray-100"
                     />
-                </div>
+                </div> */}
             </div>
         </div>
     );
