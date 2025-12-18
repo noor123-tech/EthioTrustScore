@@ -19,7 +19,7 @@ const Impact = () => {
                         <div className="inline-flex p-4 rounded-full bg-green-100 text-ethio-green mb-4">
                             <TrendingUp size={32} />
                         </div>
-                        <h3 className="text-3xl font-bold text-gray-900 mb-2">$100-200 B</h3>
+                        <h3 className="text-3xl font-bold text-gray-900 mb-2">$10-20 B</h3>
                         <p className="text-gray-500">Potential addition to nominal GDP by 2035</p>
                     </div>
                     <div className="text-center p-8 bg-white border border-gray-100 shadow-xl rounded-2xl">
