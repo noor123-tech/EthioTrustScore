@@ -79,7 +79,7 @@ const Investors = () => {
                 {/* Roadmap */}
                 <div className="mb-8">
                     <h2 className="text-3xl font-bold text-center mb-4">Implementation Plan</h2>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                         <RoadmapCard
                             phase="Phase 1 (Year 1)"
                             title="Foundation"
@@ -94,6 +94,11 @@ const Investors = () => {
                             phase="Phase 3"
                             title="Expansion"
                             items={["Consumer Tools Launch", "Financial Literacy Campaigns", "National Scale"]}
+                        />
+                        <RoadmapCard
+                            phase="Phase 4 (Innovation)"
+                            title="Roadmap"
+                            items={["Implement machine learning on the data to transform the EthioTrust score into an AI-driven company.", "Integrate AI chat and voice services for customer support.", "Develop Android and iOS app support."]}
                         />
                     </div>
                 </div>
