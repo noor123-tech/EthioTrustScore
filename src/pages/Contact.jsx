@@ -45,6 +45,9 @@ const Contact = () => {
 
                 <div className="text-center mb-16">
                     <h1 className="text-4xl font-bold text-ethio-green mb-4">Join the Financial Revolution</h1>
+                    <p className="text-xl text-gray-600 mb-2">
+                        Partner with us to build the infrastructure of trust in Ethiopia.
+                    </p>
                     <p className="text-xl text-gray-600">
                         We seek strategic investors and partners for equity or joint ventures.
                     </p>
@@ -60,7 +63,7 @@ const Contact = () => {
                                 <MapPin className="text-ethio-green w-6 h-6 mr-4 mt-1" />
                                 <div>
                                     <h3 className="font-bold text-gray-900">Visit Us</h3>
-                                    <p className="text-gray-600">USA: 5501 Seminary Rd #2112S<br />Falls Church, VA 22041</p>
+                                    <p className="text-gray-600">Fairfax, VA<br />United States</p>
                                 </div>
                             </div>
                             <div className="flex items-start">

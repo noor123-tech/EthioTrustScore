@@ -2,23 +2,14 @@ import { BarChart, Map, AlertTriangle } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import investorOverview from '../assets/investor_overview.jpg';
 
-import logo from '../assets/logoforeuthpiaedit.png';
+
 
 const Investors = () => {
     return (
         <div className="bg-gray-50 min-h-screen py-8">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-                {/* Header */}
-                <div className="text-center mb-16">
-                    <div className="flex justify-center mb-6">
-                        <img src={logo} alt="EthioTrustScore Logo" className="h-48 w-auto" />
-                    </div>
-                    <h1 className="text-4xl font-bold text-gray-900 mb-4">Pioneering Credit Intelligence in Ethiopia</h1>
-                    <p className="text-xl text-gray-600">
-                        Partner with us to build the infrastructure of trust in Ethiopia.
-                    </p>
-                </div>
+
 
                 {/* Overview Infographic */}
                 <div className="mb-16">
@@ -86,7 +77,7 @@ const Investors = () => {
                     <h2 className="text-3xl font-bold text-center mb-4">Implementation Plan</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                         <RoadmapCard
-                            phase="Phase 1 (Year 1)"
+                            phase="Phase 1 "
                             title="Foundation"
                             items={["Secure NBE License", "Seed Capital $5-15M", "Partner Global Tech"]}
                         />
@@ -101,9 +92,9 @@ const Investors = () => {
                             items={["Consumer Tools Launch", "Financial Literacy Campaigns", "National Scale"]}
                         />
                         <RoadmapCard
-                            phase="Phase 4 (Innovation)"
-                            title="Roadmap"
-                            items={["Implement machine learning on the data to transform the EthioTrust score into an AI-driven company.", "Integrate AI chat and voice services for customer support.", "Develop Android and iOS app support."]}
+                            phase="Phase 4"
+                            title="Roadmap "
+                            items={["Implement machine learning on the data to transform the EthioTrustScore into an AI-driven company", "Integrate AI chat and voice services for customer support", "Develop Android/iOS app"]}
                         />
                     </div>
                 </div>

@@ -104,7 +104,7 @@ const Footer = () => {
                     <div>
                         <h3 className="text-lg font-semibold mb-4 text-ethio-yellow">Contact Us</h3>
                         <div className="space-y-2 text-gray-300">
-                            <p>USA: 5501 Seminary Rd #2112S<br />Falls Church, VA 22041</p>
+                            <p>Fairfax, VA<br />United States</p>
                             <p>Kirillysc@gmail.com</p>
                             <p>+1 571 276-0986</p>
                         </div>
