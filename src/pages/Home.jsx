@@ -7,7 +7,7 @@ import {
     TrendingUp, Users, ShieldCheck, Flag,
     BarChart, Map, AlertTriangle,
     Mail, Phone, MapPin,
-    X
+
 } from 'lucide-react';
 
 import heroImage from '../assets/hero_skyline.jpg';
@@ -22,28 +22,7 @@ const fadeInUp = {
     visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } }
 };
 
-const GlobalCallBanner = () => {
-    const [isVisible, setIsVisible] = useState(true);
 
-    if (!isVisible) return null;
-
-    return (
-        <div className="bg-gray-100 border-b border-gray-200 text-gray-800 relative z-50">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-start justify-between">
-                <p className="text-sm md:text-base font-normal leading-relaxed pr-8">
-                    Example below is specific to Ethiopia, but we welcome Myanmar, Eritrea, Cameroon, Gabon, Congo, Mauritania, Yemen, Equatorial Guinea, Comoros, São Tomé, Príncipe, Micronesia, Palau, Marshall Islands, Tuvalu, Nauru, Sudan, Somalia, etc... to inquire bc we can help you
-                </p>
-                <button
-                    onClick={() => setIsVisible(false)}
-                    className="text-gray-500 hover:text-gray-700 transition-colors p-1"
-                    aria-label="Dismiss banner"
-                >
-                    <X size={18} />
-                </button>
-            </div>
-        </div>
-    );
-};
 
 
 
@@ -144,7 +123,7 @@ const Home = () => {
 
     return (
         <div className="min-h-screen flex flex-col font-sans">
-            <GlobalCallBanner />
+
 
 
             <main className="flex-grow">
